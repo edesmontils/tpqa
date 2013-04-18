@@ -1,0 +1,15 @@
+#!sh
+# $1 est le répertoire contenant les fichiers à analyser
+clear
+for x in $1/* ; do
+	echo "Mise en forme du document : " $x
+	./dec $x
+	echo "Analyse Perl" $x'd' $x'.xml'
+	./entitetemporelle $x'd' $x'.xml'
+	echo "Post-traitement PHP"
+	php ./timex2iso8601.php $x
+	rm $x'd'
+	rm $x'.xml'
+done 
+
+# (c) E. Desmontils, LINA, 2013

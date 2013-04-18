@@ -1,0 +1,3 @@
+#echo '...'
+perl ./decPonctuation.pl $1
+

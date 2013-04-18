@@ -1,0 +1,9 @@
+Outils de traitement des entités temporelles 'tpqa'
+E. Desmontils, LINA, Avril 2013
+
+Contrainte d'utilisation : il faut pouvoir exécuter "en ligne de commande" du Perl et du PHP.
+
+Utilisation :
+sh tpqa NomRepertoireContenantLesDocumentsAAnnoter
+
+Soit 'x' le document d'origine (texte brut, sans XML), le document XML résultat sera nommé 'x.tpqa' et se trouve dans le même répertoire que le document initial.

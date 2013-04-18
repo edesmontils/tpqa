@@ -1,0 +1,2 @@
+echo 'Séparation des ponctuations'
+cat $1 | ./decPonctuation > $1d
