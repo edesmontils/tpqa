@@ -4,7 +4,7 @@
 # CONTENT:      Filtrage des symboles
 # AUTHOR:       Emmanuel MORIN
 # DATE:         14/05/99
-# MODIFIED : E. Desmontils 05/10/07
+# MODIFIED : 	E. Desmontils 05/10/07
 # =============================================================
 
 # Todo :
